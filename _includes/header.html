@@ -6,20 +6,25 @@
 
 {% if showHeader == true %}
     <header class="header-home {% if site.animation %}animated{% endif %}">
-        {% if site.about %}
-            <a class="link" href="{{ site.url }}/about">
-                <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+        <!--
+        <span class="link">
+            <img 
+              class="selfie" 
+              alt="hahah" 
+              src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" 
+            />
+        </span>
+        -->
+
+        <h1 class="title">{{ site.domain_name }}</h1>
+        <h2 class="description">{{ site.domain_description}}</h2>
+
+        <h2 class="description">
+            Send me an offer
+            <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}">
+                <svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg>
             </a>
-        {% else %}
-            <span class="link">
-                <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
-            </span>
-        {% endif %}
-
-        <h1 class="title">{{ site.name }}</h1>
-        <h2 class="description">{{ site.bio }}</h2>
-
-        {% include social-links.html %}
+        </div>
     </header>
 {% endif %}
 
