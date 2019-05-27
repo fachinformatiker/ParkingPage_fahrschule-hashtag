@@ -1,7 +1,6 @@
 # main text of home
 domain_name: "leishi.io"
 domain_description: "This domain is for sale!"
-
 email: me@leishi.io
 
 # If you want to put some external links
@@ -14,7 +13,7 @@ external_links:
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.png
+picture: assets/images/profile.jpg
 
 # your url: http://USERNAME.github.io
 url: https://www.leishi.io
