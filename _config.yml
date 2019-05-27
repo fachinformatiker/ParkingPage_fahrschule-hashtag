@@ -1,5 +1,7 @@
 # main text of home
-domain_name: "leishi.io"
+url: https://www.tribodapraia.com
+# For display purpose
+domain_name: "tribodapraia.com"
 domain_description: "This domain is for sale!"
 email: me@leishi.io
 
@@ -9,14 +11,18 @@ external_links:
       name: "CAOSEN"
     - url: "https://www.leishi.io/"
       name: "Lei Shi"
+    - url: "https://www.lowercamelcase.com/"
+      name: "lowerCamelCase"
+    - url: "https://www.yepanata.com/"
+      name: "YepAnata"
+    - url: "https://www.0v0.me/"
+      name: "0v0.me"
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
 picture: assets/images/profile.jpg
 
-# your url: http://USERNAME.github.io
-url: https://www.leishi.io
 
 # To enable google analytics, supply your token below
 analytics-google: 'UA-119177383-5'
