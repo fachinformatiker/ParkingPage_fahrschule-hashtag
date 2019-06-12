@@ -1,9 +1,10 @@
 <nav class="{% if page.title == "Home" %}nav-home{% else %}nav{% endif %}">
     <ul class="list">
         {% for link in site.external_links %}
-            <li class="item">
-                <a class="link" href="{{ link.url }}">{{ link.name }}</a>
-            </li>
+            {% unless link.url contains site.url %}
+                <li class="item">
+                    <a class="link" href="{{ link.url }}">{{ link.name }}</a>
+                </li>
+            {% endunless %}
         {% endfor %}
     </ul>
-</nav>

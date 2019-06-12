@@ -1,7 +1,7 @@
 # main text of home
-url: https://www.tribodapraia.com
+url: https://www.leishi.io
 # For display purpose
-domain_name: "tribodapraia.com"
+domain_name: "leishi.io"
 domain_description: "This domain is for sale!"
 email: me@leishi.io
 
@@ -12,9 +12,11 @@ external_links:
     - url: "https://www.leishi.io/"
       name: "Lei Shi"
     - url: "https://www.lowercamelcase.com/"
-      name: "lowerCamelCase"
+      name: "lowerCamelCase.com"
+    - url: "https://www.tribodapraia.com/"
+      name: "TriboDaPraia.com"
     - url: "https://www.yepanata.com/"
-      name: "YepAnata"
+      name: "YepAnata.com"
     - url: "https://www.0v0.me/"
       name: "0v0.me"
 
