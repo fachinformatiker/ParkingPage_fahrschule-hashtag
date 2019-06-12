@@ -1,0 +1,17 @@
+# main text of home
+url: https://www.yepanata.com
+# For display purpose
+domain_name: "YepAnata.com"
+
+# If you want to put some external links
+external_links:
+    - url: "https://www.caosen.com/"
+      name: "CAOSEN"
+    - url: "https://www.leishi.io/"
+      name: "Lei Shi"
+    - url: "https://www.0v0.me/"
+      name: "0v0.me"
+    - url: "https://www.tribodapraia.com/"
+      name: "Tribo da Praia"
+    - url: "https://www.lowercamelcase.com/"
+      name: "lowerCamelCase"
