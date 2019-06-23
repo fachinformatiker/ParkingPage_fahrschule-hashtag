@@ -8,9 +8,11 @@ email: me@leishi.io
 # If you want to put some external links
 external_links:
     - url: "https://www.caosen.com/"
-      name: "CAOSEN"
+      name: "caosen"
     - url: "https://www.leishi.io/"
       name: "Lei Shi"
+    - url: "https://blog.leishi.io/"
+      name: "blog"
     - url: "https://lg.to/"
       name: "lg.to"
     - url: "https://2cn.io/"
@@ -61,4 +63,4 @@ compress_html:
         - development
         - stage
 
-exclude: ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md", "vendor"]
+exclude: ["travis.sh", "Rakefile", "README.md", "screenshot.png", "Gemfile", "Gemfile.lock", "FAQ.md", "vendor"]
