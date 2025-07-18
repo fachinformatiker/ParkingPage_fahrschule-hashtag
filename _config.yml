@@ -1,37 +1,23 @@
 # main text of home
-url: https://www.leishi.io
+url: https://fahrschule-hashtag.de
 # For display purpose
-domain_name: "leishi.io"
+domain_name: "fahrschule-hashtag.de"
 domain_description: "This domain is for sale!"
-email: me@leishi.io
+email: domain@psvisual.de
 
 # If you want to put some external links
-external_links:
-    - url: "https://www.leishi.io/"
-      name: "Lei Shi"
-    - url: "https://blog.leishi.io/"
-      name: "blog"
-    - url: "https://2cn.io/"
-      name: "2cn.io"
-    - url: "https://189.io/"
-      name: "189.io"
-    - url: "https://yuehu.io/"
-      name: "yuehu.io"
-    - url: "https://zigbee.io/"
-      name: "zigbee.io"
-    - url: "https://kikfm.io/"
-      name: "kikfm.com"
-    - url: "https://www.lowercamelcase.com/"
-      name: "lowerCamelCase.com"
+#external_links:
+#    - url: "https://www.leishi.io/"
+#      name: "Lei Shi"
 
 # if it's an external image, update below for true
 # better with square images
-external-image: false
-picture: assets/images/profile.jpg
+external-image: true
+picture: "https://psvisual.de/wp-content/uploads/2023/01/IMG_2461_eckig-1024x1024-1.jpg"
 
 
 # To enable google analytics, supply your token below
-analytics-google: 'UA-119177383-5'
+#analytics-google: 'UA-119177383-5'
 
 # To enable piwik tracking, supply your url & site ID below
 # analytics-piwik-url: 'piwik.my-host.com'
